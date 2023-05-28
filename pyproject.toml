@@ -1,0 +1,15 @@
+[tool.pdm]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "-e file:///${PROJECT_ROOT}/my_package#egg=my-package",
+]
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "liran", email = "liran@hiredscore.com"},
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
